@@ -1,0 +1,60 @@
+export const industries = [
+  { title: "Agriculture", slug: "agriculture" },
+  { title: "Automotive & Assembly", slug: "automotive" },
+  { title: "Chemicals", slug: "chemicals" },
+  { title: "Consumer Packaged Goods", slug: "cpg" },
+  { title: "Education", slug: "education" },
+  { title: "Electric Power & Natural Gas", slug: "electric-power" },
+  { title: "Energy & Materials", slug: "energy-materials" },
+  { title: "Engineering & Construction", slug: "engineering-construction" },
+  { title: "Financial Services", slug: "financial-services" },
+  { title: "Healthcare", slug: "healthcare" },
+  { title: "Industrials", slug: "industrials" },
+  { title: "Infrastructure", slug: "infrastructure" },
+  { title: "Life Sciences", slug: "life-sciences" },
+  { title: "Logistics", slug: "logistics" },
+  { title: "Metals & Mining", slug: "metals-mining" },
+  { title: "Oil & Gas", slug: "oil-gas" },
+  { title: "Packaging & Paper", slug: "packaging-paper" },
+  { title: "Private Capital", slug: "private-capital" },
+  { title: "Public Sector", slug: "public-sector" },
+  { title: "Real Estate", slug: "real-estate" },
+  { title: "Retail", slug: "retail" },
+  { title: "Semiconductors", slug: "semiconductors" },
+  { title: "Technology, Media & Telecom", slug: "tmt" },
+];
+
+export const services = [
+  { title: "Artificial Intelligence", slug: "artificial-intelligence" },
+  { title: "Assurance", slug: "assurance" },
+  { title: "Audit", slug: "audit" },
+  { title: "Business Building", slug: "business-building" },
+  { title: "Customer", slug: "customer" },
+  { title: "Growth, Marketing & Sales", slug: "growth-marketing-sales" },
+  { title: "Human Capital", slug: "human-capital" },
+  { title: "Implementation", slug: "implementation" },
+  { title: "M&A", slug: "mergers-acquisitions" },
+  { title: "Operations", slug: "operations" },
+  { title: "People & Organizational Performance", slug: "people-performance" },
+  { title: "Risk & Resilience", slug: "risk-resilience" },
+  { title: "Strategy & Corporate Finance", slug: "strategy-finance" },
+  { title: "Sustainability", slug: "sustainability" },
+  { title: "Tax", slug: "tax" },
+  { title: "Technology", slug: "technology" },
+  { title: "Transformation", slug: "transformation" },
+];
+
+export const primaryNav = [
+  { title: "Industries", href: "/industries", hasSubmenu: true },
+  { title: "Services", href: "/services", hasSubmenu: true },
+  { title: "Thiru x Zoho", href: "/thiru-zoho" },
+  { title: "Public Sector", href: "/public-sector" },
+  { title: "Insights", href: "/insights" },
+  { title: "About Us", href: "/about" },
+];
+
+export const secondaryNav = [
+  { title: "Client Login", href: "/login" },
+  { title: "Careers", href: "/careers" },
+  { title: "Contact Us", href: "/contact" },
+];
