@@ -9,6 +9,8 @@ import ThiruZoho from "./pages/ThiruZoho";
 import PublicSector from "./pages/PublicSector";
 import Insights from "./pages/Insights";
 import Contact from "./pages/Contact";
+import IndustryPage from "./pages/industries/IndustryPage";
+import ServicePage from "./pages/services/ServicePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +28,8 @@ const App = () => (
           <Route path="/public-sector" element={<PublicSector />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/industries/:slug" element={<IndustryPage />} />
+          <Route path="/services/:slug" element={<ServicePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
